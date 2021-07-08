@@ -1,7 +1,13 @@
 /*
-Codifica una función cuyas instrucciones permitan ordenar una colección (array).
-Preferentemente, recibir el criterio de ordenamiento por parámetro,
-y mostrar el resultado del procesamiento en una salida.
+>>Objetivos generales:
+Codificar la funcionalidad inicial del simulador. 
+Identificar el flujo de trabajo del script en términos de captura de entradas ingresadas por el usuario, procesamiento esencial del simulador y notificación de resultados en forma de salida.
+>>Objetivos específicos:
+Capturar entradas mediante prompt().
+Declarar variables y objetos necesarios para simular el proceso seleccionado.
+Crear funciones y/o métodos para realizar operaciones (suma, resta, concatenación, división, porcentaje, etc).
+Efectuar una salida, que es el resultado de los datos procesados, la cual puede hacerse por alert() o console.log().
+
 */
 
 //Array de bebidas
