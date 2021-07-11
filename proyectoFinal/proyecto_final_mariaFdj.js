@@ -23,13 +23,14 @@ class Bebida {
 
 function saludar(){
     alert('Los sabores de cerveza son: IPA, Honey y Negra')    
-    let valor1 = prompt('Ingresar el producto que quiere seleccionar');
-    if(valor1=== 'IPA' && valor !=null){
+    let valor = prompt('Ingresar el producto que quiere seleccionar');
+    if(valor=== 'IPA' && valor !=null){
         alert('Su cerveza elegida es IPA!');
     }
-    if (valor1==='Honey' && valor !=null){
+    if (valor==='Honey' && valor !=null){
         alert('Su cerveza es Honey!')
-    }else{
+    }
+    if (valor==='Negra' && valor !=null){
         alert('Su cerveza es Negra!')
         }
     }
