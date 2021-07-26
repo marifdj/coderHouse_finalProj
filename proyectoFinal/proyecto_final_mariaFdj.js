@@ -58,3 +58,17 @@ return a.precio - b.precio;
 
 console.log('Ordenados por menor valor');
 console.log(ordenarMenorPrecio);
+
+const tipoDeProducto= [ {id:1, nombre: "lata 750ml", precio: 250},
+                        {id:2, nombre: "barril 50lts", precio: 2500},
+                        {id:3, nombre: "barril 100lts", precio: 4500},
+
+];
+for (const producto of tipoDeProducto) {
+    let contenedor = document.createElement("div");
+    //Definimos el innerHTML del elemento con una plantilla de texto
+    contenedor.innerHTML = `<h3> ${producto.id}</h3>
+                            <p>  Producto: ${producto.nombre}</p>
+                            <b> $ ${producto.precio}</b>`;
+    document.body.appendChild(contenedor);
+}
