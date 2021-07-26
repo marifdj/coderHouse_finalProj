@@ -3,3 +3,12 @@
     font-family: openSansCustom;
     background-color:white;
 }
+
+#btnPrincipal{
+    display: flex;
+    border: 1px solid grey;
+    width: 260px;
+    height: 205px;
+    margin: 5px;
+    background-color:white;
+}

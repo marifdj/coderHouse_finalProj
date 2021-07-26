@@ -72,3 +72,16 @@ for (const producto of tipoDeProducto) {
                             <b> $ ${producto.precio}</b>`;
     document.body.appendChild(contenedor);
 }
+
+function eventAction(element){
+    let boton         = document.getElementById(element)
+    boton.onclick     = () => {console.log("Click")};
+}
+
+eventAction("btnPrincipal")
+eventAction("btnAyuda")
+eventAction("btnReservas")
+eventAction("btnContacto")
+
+
+
