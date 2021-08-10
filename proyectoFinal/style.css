@@ -1,14 +1,117 @@
-/*estilos generales*/
-*{
-    font-family: openSansCustom;
-    background-color:white;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+
+svg {
+  background: #ebe7e0;
 }
 
-#btnPrincipal{
-    display: flex;
-    border: 1px solid grey;
-    width: 260px;
-    height: 205px;
-    margin: 5px;
-    background-color:white;
+text {
+  fill: #35322a;
+  filter: url('#money');
+  font-family: 'Playfair Display', 'Georgia', serif;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 900;
+  background-color:#ebe7e0;
 }
+
+html {
+    background-color:#ebe7e0;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background: #ebe7e0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 600px;
+}
+
+img {
+    border-radius: 8px;
+    align-items: center;
+    background-color:#ebe7e0;
+  }
+
+h1 {
+    fill: #35322a;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 900;
+  }
+
+
+ body{
+    font-family: 'Montserrat', sans-serif;
+    margin:200;
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 30vw;
+    margin: 0 auto;
+    min-height: 20vh;
+    background-color:#ebe7e0;
+  }
+
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  
+  .btn-1 {
+    background-image: linear-gradient(to right, #ffecd2 0%, #f7f1ef 51%, #ffecd2 100%);
+    font-family: 'Playfair Display', 'Georgia', serif; 
+}
+  
+  .btn-2 {
+    background-image: linear-gradient(to right, #ffecd2 0%, #f7f1ef  51%, #ffecd2 100%);
+    font-family: 'Playfair Display', 'Georgia', serif; 
+}
+  
+  .btn-3 {
+    background-image: linear-gradient(to right, #ffecd2 0%,  #f7f1ef  51%, #ffecd2 100%);
+    font-family: 'Playfair Display', 'Georgia', serif; 
+}
+  
+  .btn-4 {
+    background-image: linear-gradient(to right, #ffecd2 0%, #f7f1ef  51%, #ffecd2 100%);
+    font-family: 'Playfair Display', 'Georgia', serif; 
+}
+  
+
+  #pTitle{
+    font-family: 'Playfair Display', 'Georgia', serif;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-weight: 900;
+    background-color:#ebe7e0;
+  }
+
+  #pTitle2{
+    font-family: 'Playfair Display', 'Georgia', serif;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-weight: 900;
+    background-color:#ebe7e0;
+  }
+  
+
+  #footer1{
+    background:rgb(255, 255, 255);
+    fill:white;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+
+  

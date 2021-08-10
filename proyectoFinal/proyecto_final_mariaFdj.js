@@ -1,7 +1,7 @@
 //PROYECTO FINAL CERVECERIA LOTHBROK
     const baseDeDatos = [
-        { id: 1, nombre: 'Honey', precio: 250, imagen: 'rubia.jpg'},
-        { id: 2, nombre: 'Negra', precio: 370, imagen: 'negra.jpg'},
+        { id: 1, nombre: 'Honey', precio: 250, imagen: 'ipa.jpg'},
+        { id: 2, nombre: 'Negra', precio: 370, imagen: 'ipa.jpg'},
         { id: 3, nombre: 'Ipa', precio: 380, imagen: 'ipa.jpg'},
         { id: 4, nombre: 'Roja', precio: 220, imagen:'ipa.jpg'}
 ];
@@ -196,5 +196,19 @@ eventAction(contacto);
 
 
 
+
+const aparecer = () => {
+    $("#box1").slideDown(10000);
+}
+const ocultar = () => {
+    $("#box2").slideUp(10000);
+}
+const toggle = () => {
+    $("#box3").toggle(2000);
+}
+
+$("#btn1").click(aparecer)
+$("#btn2").click(ocultar)
+$("#btn3").click(toggle)
 
 
