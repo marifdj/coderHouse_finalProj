@@ -84,7 +84,10 @@ h1 {
     font-family: 'Playfair Display', 'Georgia', serif; 
 }
   
-
+#usuario{
+  background-image: linear-gradient(to right, #ffecd2 0%, #f7f1ef  51%, #ffecd2 100%);
+  font-family: 'Playfair Display', 'Georgia', serif; 
+}
   #pTitle{
     font-family: 'Playfair Display', 'Georgia', serif;
     align-items: center;
